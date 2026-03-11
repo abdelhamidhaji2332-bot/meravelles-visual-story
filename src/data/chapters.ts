@@ -136,15 +136,35 @@ export const chapters: Chapter[] = [
       },
       {
         id: 'ch1-p2',
+        image: 'ch1-chouafa-ritual',
+        text_fr: 'Au rez-de-chaussée, la Chouafa recevait ses clientes. Des femmes venaient de tout le quartier, apportant leurs secrets et leurs angoisses. L\'odeur de l\'encens montait jusqu\'à notre étage.',
+        text_ar: 'في الطابق الأرضي، كانت الشوّافة تستقبل زبوناتها. نساء يأتين من كل أنحاء الحي، يحملن أسرارهن وقلقهن. كانت رائحة البخور تصعد حتى طابقنا.',
+        glossaryTerms: ['chouafa'],
+      },
+      {
+        id: 'ch1-p3',
         image: 'ch1-boy-with-box',
         text_fr: 'J\'étais un enfant solitaire. Je n\'avais pas d\'amis. Mon seul compagnon était ma Boîte à Merveilles, cachée sous mon lit — un coffret rempli de boutons, de perles et de rêves.',
         text_ar: 'كنت طفلاً وحيدًا. لم يكن لدي أصدقاء. رفيقي الوحيد كان صندوق العجائب، مخبّأ تحت سريري — صندوق صغير مليء بالأزرار والخرز والأحلام.',
       },
       {
-        id: 'ch1-p3',
+        id: 'ch1-p4',
+        image: 'ch1-women-arguing',
+        text_fr: 'La maison ne dormait jamais. Les voisines se disputaient pour un seau d\'eau, pour une corde à linge. Leurs voix résonnaient dans le patio comme un orage permanent.',
+        text_ar: 'البيت لم يكن ينام أبدًا. الجارات يتشاجرن على دلو ماء أو حبل غسيل. أصواتهن تتردد في الفناء كعاصفة دائمة.',
+      },
+      {
+        id: 'ch1-p5',
         image: 'hero-fez-alley',
         text_fr: 'Les ruelles de Fès étaient un labyrinthe. Ma mère, Lalla Zoubida, me tenait par la main quand nous traversions ces passages étroits, baignés d\'ombre et de lumière.',
         text_ar: 'كانت أزقة فاس متاهة. أمي، لالة زبيدة، كانت تمسك بيدي عندما نعبر هذه الممرات الضيقة، المغمورة بالظل والنور.',
+      },
+      {
+        id: 'ch1-p6',
+        image: 'ch1-patio-night',
+        text_fr: 'La nuit, quand tout le monde dormait, je descendais dans le patio. La lune éclairait les zellige et je me sentais le seul habitant d\'un palais enchanté.',
+        text_ar: 'في الليل، عندما ينام الجميع، كنت أنزل إلى الفناء. القمر يضيء الزليج وكنت أشعر بأنني الساكن الوحيد لقصر مسحور.',
+        glossaryTerms: ['zellige'],
       },
     ],
   },
@@ -163,17 +183,36 @@ export const chapters: Chapter[] = [
       },
       {
         id: 'ch2-p2',
+        image: 'ch2-hammam-scrub',
+        text_fr: 'Ma mère me frottait avec une énergie féroce. Je criais, je pleurais, mais elle continuait, convaincue que la propreté était une forme de piété. L\'eau brûlante me faisait voir des étoiles.',
+        text_ar: 'كانت أمي تفركني بقوة شرسة. كنت أصرخ وأبكي، لكنها تستمر، مقتنعة بأن النظافة شكل من أشكال التقوى. الماء الحار كان يجعلني أرى النجوم.',
+      },
+      {
+        id: 'ch2-p3',
         image: 'ch2-msid',
         text_fr: 'Au Msid, le Fqih régnait avec sa baguette de cognassier. Nous récitions le Coran en balançant nos corps d\'avant en arrière, hypnotisés par le rythme de nos propres voix.',
         text_ar: 'في المسيد، كان الفقيه يحكم بعصا السفرجل. كنا نتلو القرآن ونتمايل بأجسادنا ذهابًا وإيابًا، منوّمين بإيقاع أصواتنا.',
         glossaryTerms: ['msid', 'fqih'],
       },
       {
-        id: 'ch2-p3',
+        id: 'ch2-p4',
+        image: 'ch2-fqih-punishment',
+        text_fr: 'Malheur à celui qui se trompait dans sa récitation ! La baguette du Fqih s\'abattait sans pitié. Les garçons pleuraient, mais personne n\'osait se plaindre à ses parents.',
+        text_ar: 'ويل لمن أخطأ في تلاوته! عصا الفقيه تهوي بلا رحمة. الأولاد يبكون، لكن لا أحد يجرؤ على الشكوى لوالديه.',
+        glossaryTerms: ['fqih'],
+      },
+      {
+        id: 'ch2-p5',
         image: 'ch2-laundry-day',
         text_fr: 'Le jour de la lessive, ma mère sortait drapée dans son haïk blanc. Je la suivais dans les rues comme un petit fantôme. Les femmes du quartier se retrouvaient à la fontaine.',
         text_ar: 'في يوم الغسيل، كانت أمي تخرج ملتحفة بحايكها الأبيض. كنت أتبعها في الشوارع كشبح صغير. كانت نساء الحي يلتقين عند النافورة.',
         glossaryTerms: ['haik'],
+      },
+      {
+        id: 'ch2-p6',
+        image: 'ch2-fountain-wash',
+        text_fr: 'À la fontaine, les femmes lavaient et bavardaient. Les potins du quartier s\'échangeaient entre deux coups de battoir. C\'était leur monde, un monde où les hommes n\'entraient pas.',
+        text_ar: 'عند النافورة، كانت النساء يغسلن ويثرثرن. أخبار الحي تتبادل بين ضربتي مدق. كان عالمهن، عالم لا يدخله الرجال.',
       },
     ],
   },
@@ -185,18 +224,36 @@ export const chapters: Chapter[] = [
     panels: [
       {
         id: 'ch3-p1',
+        image: 'ch3-father-workshop',
+        text_fr: 'Mon père, Sidi Abdeslam, était tisserand. Je le regardais travailler dans son atelier, ses mains habiles faisant danser les fils colorés. Il parlait peu, mais son silence était doux.',
+        text_ar: 'أبي، سيدي عبد السلام، كان نسّاجًا. كنت أراقبه يعمل في ورشته، يداه الماهرتان تُرقّصان الخيوط الملونة. كان قليل الكلام، لكن صمته كان لطيفًا.',
+      },
+      {
+        id: 'ch3-p2',
         image: 'ch3-box-treasures',
         text_fr: 'Le soir, quand la maison s\'endormait, je sortais ma Boîte à Merveilles. Chaque objet avait une âme, une histoire. Le bouton de verre devenait un diamant royal.',
         text_ar: 'في المساء، عندما كان البيت ينام، كنت أُخرج صندوق العجائب. كل شيء كانت له روح وقصة. الزر الزجاجي يتحول إلى ماسة ملكية.',
       },
       {
-        id: 'ch3-p2',
+        id: 'ch3-p3',
+        image: 'ch3-box-glow',
+        text_fr: 'Je tenais la boîte contre ma poitrine et je fermais les yeux. Les objets à l\'intérieur semblaient briller d\'une lumière propre, comme des étoiles captives dans un coffre de bois.',
+        text_ar: 'كنت أضم الصندوق إلى صدري وأغمض عينيّ. الأشياء بداخله كانت تبدو مضيئة بنورها الخاص، كنجوم أسيرة في صندوق خشبي.',
+      },
+      {
+        id: 'ch3-p4',
+        image: 'ch3-dream-sequence',
+        text_fr: 'Dans mes rêves, je volais parmi des boutons géants qui tournaient comme des planètes. Les perles colorées étaient des lunes, et moi, j\'étais le roi de cet univers minuscule et infini.',
+        text_ar: 'في أحلامي، كنت أطير بين أزرار عملاقة تدور كالكواكب. الخرز الملون كان أقمارًا، وأنا كنت ملك هذا الكون الصغير واللامتناهي.',
+      },
+      {
+        id: 'ch3-p5',
         image: 'ch3-rooftop-crying',
         text_fr: 'Mais certains soirs, même la Boîte ne suffisait pas. La solitude était trop lourde. Je montais sur la terrasse et je pleurais en regardant les toits de Fès s\'étendre à l\'infini.',
         text_ar: 'لكن في بعض الليالي، حتى الصندوق لم يكن كافيًا. كانت الوحدة ثقيلة جدًا. كنت أصعد إلى السطح وأبكي وأنا أنظر إلى أسطح فاس تمتد إلى ما لا نهاية.',
       },
       {
-        id: 'ch3-p3',
+        id: 'ch3-p6',
         image: 'ch1-boy-with-box',
         text_fr: 'Puis je redescendais, je serrais ma boîte contre ma poitrine, et je m\'endormais en rêvant d\'un monde où les boutons étaient des étoiles et les perles des planètes.',
         text_ar: 'ثم كنت أعود وأضم صندوقي إلى صدري، وأنام وأنا أحلم بعالم تكون فيه الأزرار نجومًا والخرز كواكب.',
@@ -204,6 +261,3 @@ export const chapters: Chapter[] = [
     ],
   },
 ];
-
-// Map image keys to imports
-export const imageMap: Record<string, string> = {};
