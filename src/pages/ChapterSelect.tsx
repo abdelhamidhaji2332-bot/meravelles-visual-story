@@ -18,7 +18,7 @@ export default function ChapterSelect() {
       >
         <h1 className="text-2xl font-medium">Chapitres</h1>
         <p className="text-sm text-muted-foreground mt-1">
-          Chapitre 1–{chapters.length} / 12
+          12 chapitres · Roman graphique bilingue
         </p>
       </motion.div>
 
