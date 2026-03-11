@@ -15,6 +15,15 @@ import ch3BoxGlow from '@/assets/ch3-box-glow.jpg';
 import ch3DreamSequence from '@/assets/ch3-dream-sequence.jpg';
 import ch3RooftopCrying from '@/assets/ch3-rooftop-crying.jpg';
 import ch3FatherWorkshop from '@/assets/ch3-father-workshop.jpg';
+import ch4RahmaFight from '@/assets/ch4-rahma-fight.jpg';
+import ch5GrocerShop from '@/assets/ch5-grocer-shop.jpg';
+import ch6FqihSick from '@/assets/ch6-fqih-sick.jpg';
+import ch7Achoura from '@/assets/ch7-achoura.jpg';
+import ch8Bracelet from '@/assets/ch8-bracelet.jpg';
+import ch9FatherRuin from '@/assets/ch9-father-ruin.jpg';
+import ch10Wedding from '@/assets/ch10-wedding.jpg';
+import ch11Souk from '@/assets/ch11-souk.jpg';
+import ch12Return from '@/assets/ch12-return.jpg';
 
 export const images: Record<string, string> = {
   'hero-fez-alley': heroFezAlley,
@@ -34,4 +43,13 @@ export const images: Record<string, string> = {
   'ch3-dream-sequence': ch3DreamSequence,
   'ch3-rooftop-crying': ch3RooftopCrying,
   'ch3-father-workshop': ch3FatherWorkshop,
+  'ch4-rahma-fight': ch4RahmaFight,
+  'ch5-grocer-shop': ch5GrocerShop,
+  'ch6-fqih-sick': ch6FqihSick,
+  'ch7-achoura': ch7Achoura,
+  'ch8-bracelet': ch8Bracelet,
+  'ch9-father-ruin': ch9FatherRuin,
+  'ch10-wedding': ch10Wedding,
+  'ch11-souk': ch11Souk,
+  'ch12-return': ch12Return,
 };
