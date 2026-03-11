@@ -1,105 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 30 33% 97%;
+    --foreground: 25 25% 18%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 30 30% 95%;
+    --card-foreground: 25 25% 18%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 30 33% 97%;
+    --popover-foreground: 25 25% 18%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 12 75% 38%;
+    --primary-foreground: 30 33% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 30 20% 89%;
+    --secondary-foreground: 25 25% 18%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 30 20% 89%;
+    --muted-foreground: 25 15% 40%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 30 20% 89%;
+    --accent-foreground: 25 25% 18%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 30 33% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 30 20% 80%;
+    --input: 30 20% 80%;
+    --ring: 12 75% 38%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
+    --sidebar-background: 30 25% 95%;
+    --sidebar-foreground: 25 25% 18%;
+    --sidebar-primary: 12 75% 38%;
+    --sidebar-primary-foreground: 30 33% 97%;
+    --sidebar-accent: 30 20% 89%;
+    --sidebar-accent-foreground: 25 25% 18%;
+    --sidebar-border: 30 20% 80%;
+    --sidebar-ring: 12 75% 38%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    --font-sans: 'IBM Plex Sans', sans-serif;
+    --font-serif: 'Amiri', serif;
 
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --shadow-card: 0 0 0 1px rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.04);
+    --shadow-card-hover: 0 0 0 1px rgba(0,0,0,.06), 0 2px 4px 0 rgba(0,0,0,.05), 0 6px 12px -2px rgba(0,0,0,.04);
+    --shadow-sheet: 0 -10px 30px -15px rgba(0,0,0,0.15);
   }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-}
-
-@layer base {
   * {
     @apply border-border;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  .font-narrative {
+    font-family: var(--font-serif);
+    font-size: clamp(1.0rem, 1.8vw + 0.5rem, 1.25rem);
+    line-height: 1.7;
+    text-wrap: pretty;
+  }
+
+  .font-narrative-ar {
+    font-family: var(--font-serif);
+    font-size: clamp(1.1rem, 2vw + 0.5rem, 1.35rem);
+    line-height: 1.8;
+    direction: rtl;
+    text-align: right;
+  }
+
+  .scroll-snap-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    height: 100svh;
+  }
+
+  .scroll-snap-panel {
+    scroll-snap-align: start;
+    min-height: 90svh;
+    display: grid;
+    place-items: center;
+  }
+
+  .lexicon-term {
+    text-decoration: underline dotted hsl(var(--primary)) 2px;
+    text-underline-offset: 3px;
+    cursor: pointer;
   }
 }
